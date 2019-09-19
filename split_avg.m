@@ -40,6 +40,3 @@ xlabel('X-Axis');
 ylabel('Y-Axis');
 title('Splitting and Averaging Functions');
 legend('Initial Points', 'Smoothed Points');
-
-    
-    
