@@ -1,4 +1,8 @@
-% Splitting and Averaging
+% July 31, 2018
+% ///////////////////////////////////////////////////////////////////
+% This script takes a given set of points forming a curve, subdivides 
+% them, and smooth the curve through a number of iterations via the 
+% use of the functions splitPts and averagePts.
 
 % Clean up the matlab workspace
 clc; clear all; close all;
