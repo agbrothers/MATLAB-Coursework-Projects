@@ -1,6 +1,8 @@
 % August 6, 2018
-% ///////////////////////////////////////////////////////////////
-% The Shared Birthday Problem
+% //////////////////////////////////////////////////////////////////
+% This script finds how large a randomly distributed group of people
+% has to be before any two of them have birthdays during the same 
+% week, utlizing the monte carlo method.  
 
 % Clean up the matlab workspace
 clc; clear all; close all;
@@ -8,7 +10,6 @@ clc; clear all; close all;
 % Define the number of trials and preallocate the N-Values vector
 trials = 10000;
 N = zeros(1,trials);
-
 
 for k = 1:trials
     counter = 1;
