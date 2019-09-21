@@ -33,4 +33,3 @@ for k=1:trials
     drawnow;
     pause(0.1);
 end
-
